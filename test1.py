@@ -7,5 +7,5 @@ def test1(a, b):
 
 
 test1(1, 5)
-test1(1, 1)
-test1(1, 10)
+test1(1, 7)
+test1(3, 10)
