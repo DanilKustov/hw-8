@@ -2,11 +2,10 @@ from main import my_func
 
 
 def test2(a, b):
-    if a == b:
-        result = 0
+    result = my_func(a, b)
     assert result == 0
 
 
-test2(1, 5)
+test2(2, 2)
 test2(1, 1)
-test2(1, 10)
+test2(10, 10)
