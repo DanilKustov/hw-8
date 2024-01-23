@@ -1,11 +1,12 @@
+def my_func(a, b):
+    result = 0
+    if a < b:
+        for i in range(b-a):
+            result += i
+    else:
+        for i in range(a-b):
+            result += i
+    return result
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
+print(my_func(1, 1))
